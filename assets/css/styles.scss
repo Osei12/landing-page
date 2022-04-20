@@ -231,6 +231,8 @@ section.container {
         display: block;
     }
 
+
+
     .toggleMenu {
         position: absolute;
         right: 10px;
@@ -310,5 +312,12 @@ section.container {
         h1 {
             font-size: 2.5rem;
         }
+    }
+}
+
+
+@media (orientation: landscape) {
+    nav .primary-list {
+        overflow: auto;
     }
 }

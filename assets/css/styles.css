@@ -317,4 +317,10 @@ section.container {
     font-size: 2.5rem;
   }
 }
+
+@media (orientation: landscape) {
+  nav .primary-list {
+    overflow: auto;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
